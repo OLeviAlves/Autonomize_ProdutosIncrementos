@@ -33,6 +33,7 @@ namespace Autonomize_Produtos.Models
         public DateTime DataOperacao { get; set; } = DateTime.Now;
     }
 
+
     public enum TipoOperacaoEstoque
     {
         Entrada = 1,

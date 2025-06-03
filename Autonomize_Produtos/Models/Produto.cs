@@ -34,6 +34,7 @@ namespace Autonomize_Produtos.Models
         public int TiposProdutoId { get; set; }
         public TiposProduto? TiposProduto { get; set; }
 
+        [Display(Name = "Data de Cadastro")]
         public DateTime DataCadastro { get; set; } = DateTime.Now;
 
         public bool Ativo { get; set; }
